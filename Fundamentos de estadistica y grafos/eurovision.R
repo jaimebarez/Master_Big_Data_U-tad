@@ -1,4 +1,4 @@
-setwd("C:/Users/jaime.barez/Downloads")
+
 
 datos<-read.csv("eurovision_1998 to 2012.csv",header=TRUE,sep=";",strip.white=TRUE)
 datos$duration<-as.numeric(datos$duration)
